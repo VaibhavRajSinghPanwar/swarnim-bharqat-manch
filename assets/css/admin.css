@@ -1,0 +1,388 @@
+/* ==========================================================================
+   Admin Styles for Swarnim Bharat Manch Theme
+   ========================================================================== */
+
+/* Theme Option Page */
+.sbmanch-settings-panel {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sbmanch-settings-panel h2 {
+    color: #1a47b3;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #1a47b3;
+    padding-bottom: 10px;
+}
+
+.sbmanch-settings-row {
+    margin-bottom: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.sbmanch-settings-row:last-child {
+    border-bottom: none;
+}
+
+.sbmanch-settings-row label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.sbmanch-settings-row input,
+.sbmanch-settings-row textarea,
+.sbmanch-settings-row select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.sbmanch-settings-row input:focus,
+.sbmanch-settings-row textarea:focus,
+.sbmanch-settings-row select:focus {
+    outline: none;
+    border-color: #1a47b3;
+    box-shadow: 0 0 0 3px rgba(26, 71, 179, 0.1);
+}
+
+.sbmanch-settings-row small {
+    display: block;
+    color: #999;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/* Customizer Styles */
+.wp-customizer .sbmanch-panel {
+    background: #f9f9f9;
+}
+
+/* Post Type Icons */
+.dashicons-newspaper::before {
+    color: #1a47b3;
+}
+
+.dashicons-briefcase::before {
+    color: #ff6b35;
+}
+
+.dashicons-calendar::before {
+    color: #00d4ff;
+}
+
+.dashicons-format-image::before {
+    color: #28a745;
+}
+
+/* Metabox Styles */
+.sbmanch-metabox {
+    background: white;
+    padding: 15px;
+    border-radius: 4px;
+    border-left: 4px solid #1a47b3;
+}
+
+.sbmanch-metabox h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.sbmanch-metabox-field {
+    margin-bottom: 15px;
+}
+
+.sbmanch-metabox-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.sbmanch-metabox-field input,
+.sbmanch-metabox-field textarea,
+.sbmanch-metabox-field select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.sbmanch-metabox-field input:focus,
+.sbmanch-metabox-field textarea:focus,
+.sbmanch-metabox-field select:focus {
+    outline: none;
+    border-color: #1a47b3;
+}
+
+/* Theme Color Boxes */
+.sbmanch-color-preview {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 10px;
+    border: 2px solid #ddd;
+    vertical-align: middle;
+}
+
+/* Notice Styles */
+.sbmanch-notice {
+    background: #e8f4f8;
+    border-left: 4px solid #1a47b3;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    color: #0c5460;
+}
+
+.sbmanch-notice.warning {
+    background: #fff3cd;
+    border-left-color: #ffc107;
+    color: #856404;
+}
+
+.sbmanch-notice.error {
+    background: #f8d7da;
+    border-left-color: #dc3545;
+    color: #721c24;
+}
+
+.sbmanch-notice.success {
+    background: #d4edda;
+    border-left-color: #28a745;
+    color: #155724;
+}
+
+/* Upload/Image Field Styles */
+.sbmanch-upload-field {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sbmanch-upload-field input[type="hidden"] {
+    flex: 1;
+}
+
+.sbmanch-upload-button,
+.sbmanch-remove-button {
+    padding: 8px 15px;
+    background: #1a47b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.3s ease;
+}
+
+.sbmanch-upload-button:hover,
+.sbmanch-remove-button:hover {
+    background: #ff6b35;
+}
+
+.sbmanch-upload-preview {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Widget Icon Styles */
+.sbmanch-widget-icon {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #1a47b3;
+}
+
+/* Post List Enhancements */
+.wp-list-table .sbmanch-column {
+    color: #1a47b3;
+    font-weight: 600;
+}
+
+.wp-list-table .sbmanch-column-status {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.wp-list-table .sbmanch-column-status.completed {
+    background: #d4edda;
+    color: #155724;
+}
+
+.wp-list-table .sbmanch-column-status.ongoing {
+    background: #d1ecf1;
+    color: #0c5460;
+}
+
+.wp-list-table .sbmanch-column-status.pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+/* Settings Tab Navigation */
+.sbmanch-tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.sbmanch-tab {
+    padding: 12px 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #666;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.sbmanch-tab:hover {
+    color: #1a47b3;
+}
+
+.sbmanch-tab.active {
+    color: #1a47b3;
+    border-bottom-color: #1a47b3;
+}
+
+.sbmanch-tab-content {
+    display: none;
+}
+
+.sbmanch-tab-content.active {
+    display: block;
+}
+
+/* Info Box */
+.sbmanch-info-box {
+    background: #f0f8ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 15px;
+    color: #003d82;
+}
+
+.sbmanch-info-box strong {
+    color: #1a47b3;
+}
+
+/* Documentation Link */
+.sbmanch-doc-link {
+    color: #1a47b3;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.sbmanch-doc-link:hover {
+    text-decoration: underline;
+}
+
+/* Badge */
+.sbmanch-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    background: #1a47b3;
+    color: white;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.sbmanch-badge.new {
+    background: #ff6b35;
+}
+
+/* Theme Welcome Screen */
+.sbmanch-welcome {
+    background: linear-gradient(135deg, #1a47b3, #ff6b35);
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.sbmanch-welcome h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sbmanch-welcome p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+
+.sbmanch-welcome-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.sbmanch-btn {
+    padding: 10px 20px;
+    background: white;
+    color: #1a47b3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.sbmanch-btn:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.sbmanch-btn.secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.sbmanch-btn.secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive Admin */
+@media (max-width: 768px) {
+    .sbmanch-settings-panel {
+        padding: 15px;
+    }
+
+    .sbmanch-welcome-buttons {
+        flex-direction: column;
+    }
+
+    .sbmanch-tabs {
+        flex-direction: column;
+    }
+
+    .sbmanch-tab {
+        border-bottom: none;
+        border-left: 3px solid transparent;
+    }
+
+    .sbmanch-tab.active {
+        border-left-color: #1a47b3;
+    }
+}
